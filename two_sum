@@ -1,0 +1,10 @@
+arr = [1,6,3,9,3,2,5]
+target = 8
+seen = {}
+for i in range (len(arr)):
+  num = arr[i]
+  need = target - num
+  if need in seen:
+    print(seen[need],i)
+  else:
+     seen[num] = i
