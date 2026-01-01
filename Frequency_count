@@ -1,0 +1,10 @@
+arr = [ 1,2,3,4,3,4,8,7,3,6,4,6,7,4,5,8 ]
+# count the repeat data 
+
+seen  = {}
+for num in arr:
+  if num in seen:
+    seen[num] = seen[num] + 1 
+  else :
+    seen[num] = 1 
+print(seen)
