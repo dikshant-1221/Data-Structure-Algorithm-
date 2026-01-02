@@ -1,0 +1,17 @@
+//  Empty set banao
+//  Ek-ek number uthao
+//  Agar number pehle se set me hai → True
+//  Nahi hai → set me daal do
+//  Loop khatam → False
+
+
+nums  =  [2,3,5,3,1,3,4,6,9,5 ] 
+seen = set()
+for num in nums:
+  if num in seen:
+    print(True)
+    break 
+   else:
+    seen.add(num)
+else:
+  print(False)
