@@ -1,0 +1,8 @@
+s = "listen"
+t = "silent"
+if len(s) != len(t):
+  print(True)
+if sorted(s) == sortrd(t):
+  print(True)
+else :
+  print(False)
